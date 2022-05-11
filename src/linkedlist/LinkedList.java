@@ -16,7 +16,7 @@ class LinkedList {
 	}
 
 	/* Function to reverse the linked list */
-	Node reverse(Node node) { 
+	Node reverse(Node node) {  
 		Node prev = null;
 		Node current = node;
 		while (current != null) {
